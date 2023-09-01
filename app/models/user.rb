@@ -12,5 +12,5 @@ class User < ApplicationRecord
   validates :posting, presence: true
 
   has_many :prototypes
-  has_many :comments, dependent: :destro
+  has_many :comments, dependent: :destroy
 end
