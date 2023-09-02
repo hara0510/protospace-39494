@@ -3,6 +3,6 @@ class Comment < ApplicationRecord
   validates :prototype, presence: true
   validates :comment, presence: true
 
-  belongs_to :user
   belongs_to :prototype
+  belongs_to :user
 end
