@@ -4,5 +4,5 @@ class Comment < ApplicationRecord
   validates :comment, presence: true
 
   belongs_to :user
-  belomgs_to :prototype
+  belongs_to :prototype
 end
