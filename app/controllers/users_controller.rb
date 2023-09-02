@@ -7,7 +7,7 @@ end
 def create
 end
 
-def destroy
+def show
 end
 
 end
